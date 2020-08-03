@@ -1,0 +1,28 @@
+{
+    "name": "lx9912/think-throttle",
+    "description": "throttle middleware for thinkphp6",
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "lx9912",
+            "email": "lx9912@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "think\\middleware\\": "src"
+        }
+    },
+    "extra": {
+        "think":{
+            "config":{
+                "throttle": "src/config.php"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
