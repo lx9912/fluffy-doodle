@@ -1,6 +1,6 @@
 ### 安装
 ```
-composer require topthink/think-throttle
+composer require lx9912/think-throttle
 ```
 安装后会自动为项目生成 `conf/throttle.php` 配置文件，默认配置不会限制访问频率。
 
